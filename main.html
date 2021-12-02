@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Manager</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading" style="text-align: center;">Cash Register Manager</h1>
+        <hr style="background-color: white; width: 50vw;" />
+        <p class="desc" ">
+            Enter the bill amount and cash given by the customer and
+            know minimum no of notes to return
+        </p>
+
+        <label for="bill-amt" style="font-size: 1.3rem;">Enter the Bill Amount</label>
+        <input type="text" id="bill-amt"/>
+
+    
+        <!-- <button id="btn-amt">Next</button> -->
+
+        <label for="cash" style="font-size: 1.3rem;">Enter the Cash Given</label>
+        <input type="text" id="cash"/>
+
+        <button id="check">Check</button>
+        <p id="error-message"></p>
+ 
+
+        <table class="table-chg">
+            <caption style="font-size: 1.3rem; margin: 1rem;">Return Change:</caption>
+            <tr style=" border: .1rem solid white; font-size: 1rem; margin: 0.5rem; padding: 1rem;">
+                <th>No of Notes</th>
+                <td class="no-of-notes" ></td>
+                <td class="no-of-notes" ></td>
+                <td class="no-of-notes" ></td>
+                <td class="no-of-notes" ></td>
+                <td class="no-of-notes" ></td>
+                <td class="no-of-notes" ></td>
+                <td class="no-of-notes" ></td>
+            </tr>
+            <tr style=" border: .1rem solid white; font-size: 1rem; margin: 0.5rem;">
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+
+
+            </tr>
+        </table>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
